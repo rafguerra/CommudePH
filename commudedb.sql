@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 01, 2019 at 01:33 PM
+-- Generation Time: Jun 03, 2019 at 03:19 PM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.3.5
 
@@ -36,6 +36,15 @@ CREATE TABLE `todolist` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `todolist`
+--
+
+INSERT INTO `todolist` (`id`, `date`, `title`, `description`) VALUES
+(25, '06/05/2019', 'Test', 'Test'),
+(26, '06/07/2019', 'Test', 'asdasdsadsa'),
+(27, '06/08/2019', 'asdasdasdasdasdsa', 'yoyoyoyo');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -53,7 +62,7 @@ ALTER TABLE `todolist`
 -- AUTO_INCREMENT for table `todolist`
 --
 ALTER TABLE `todolist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
