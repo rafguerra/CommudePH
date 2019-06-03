@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `todolist`
 --
-
+USE commudedb;
 CREATE TABLE `todolist` (
   `id` int(11) NOT NULL,
   `date` varchar(100) NOT NULL,
