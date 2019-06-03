@@ -7,7 +7,7 @@ Steps to install the project
 2. Clone the project inside the htdocs folder go to command prompt or terminal 
    "type git clone https://github.com/rafguerra/CommudePH.git"
 
-3.Import the sql file in phpmyAdmin/mySQL found in the project folder named "todolist.sql"
+3.Import the sql file in phpmyAdmin/mySQL found in the project folder named "commudedb.sql"
 
 4.Go to http://localhost/CommudePH/ on your web browser.
 
