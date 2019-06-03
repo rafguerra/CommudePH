@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 03, 2019 at 03:19 PM
+-- Generation Time: Jun 03, 2019 at 04:13 PM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.3.5
 
@@ -27,7 +27,9 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `todolist`
 --
+CREATE DATABASE commudedb;
 USE commudedb;
+
 CREATE TABLE `todolist` (
   `id` int(11) NOT NULL,
   `date` varchar(100) NOT NULL,
@@ -40,9 +42,9 @@ CREATE TABLE `todolist` (
 --
 
 INSERT INTO `todolist` (`id`, `date`, `title`, `description`) VALUES
-(25, '06/05/2019', 'Test', 'Test'),
-(26, '06/07/2019', 'Test', 'asdasdsadsa'),
-(27, '06/08/2019', 'asdasdasdasdasdsa', 'yoyoyoyo');
+(28, '06/03/2019', 'Valentines Day', 'Will Go to Tokyo'),
+(29, '06/12/2019', 'Independence Day', 'Go to Luneta'),
+(30, '06/08/2019', 'Gym Day', 'Train Biceps and Triceps');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +64,7 @@ ALTER TABLE `todolist`
 -- AUTO_INCREMENT for table `todolist`
 --
 ALTER TABLE `todolist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
