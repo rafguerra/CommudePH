@@ -14,5 +14,4 @@ Steps to install the project
 
 
 If there's questions or revision you can email me at rafael.iso.guerra@gmail.com 
-Thank you and I hope I'll be working with you soon :)
-Raf
+
